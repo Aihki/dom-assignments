@@ -815,6 +815,7 @@ function success(pos) {
     addressCell.textContent = restaurant.address;
   });
 }
+console.log('unohtunu upata goirhubiin');
 
 navigator.geolocation.getCurrentPosition(success, error, options);
 console.log(restaurants);

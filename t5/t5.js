@@ -800,5 +800,6 @@ function success(pos) {
 function error(err) {
   console.warn(`ERROR(${err.code}): ${err.message}`);
 }
+console.log('unohtunu upata goirhubiin');
 
 navigator.geolocation.getCurrentPosition(success, error, options);
